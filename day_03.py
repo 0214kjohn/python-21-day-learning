@@ -14,7 +14,12 @@ formatted_name = full_name.strip().title()
 formatted_email = email_address.strip().lower()
 
 # Print the results to verify.
-print(f"Original Name: '{full_name}'")
-print(f"Formatted Name: '{formatted_name}'")
+# print(f"Original Name: '{full_name}'")
+# print(f"Formatted Name: '{formatted_name}'")
+# print(f"Original Email: '{email_address}'")
+# print(f"Formatted Email: '{formatted_email}'")
+
+print(f"Original Name : '{full_name}'")
+print(f"Formatted Name: '{full_name.strip().title()}'")
 print(f"Original Email: '{email_address}'")
-print(f"Formatted Email: '{formatted_email}'")
+print(f"Formatted Email: '{email_address.strip().lower()}'")
